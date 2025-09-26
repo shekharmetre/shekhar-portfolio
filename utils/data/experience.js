@@ -7,7 +7,7 @@ export const experiences = [
   },
   {
     id: 2,
-    title: "Web Developer",
+    title: "Web Developer (Ai Effective)",
     company: "AlentSoft Pvt Ltd.",
     duration: "(April 2023 - Nov 2023)"
   },

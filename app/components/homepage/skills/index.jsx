@@ -48,7 +48,7 @@ function Skills() {
                 <div className="flex flex-col items-center justify-center gap-3 p-6">
                   <div className="h-8 sm:h-10">
                     <Image
-                      src={skillsImage(skill)?.imageUrl || "/hero.svg"}
+                      src={skillsImage(skill)?.src || "/hero.svg"}
                       alt={skill.skillName}
                       width={40}
                       height={40}

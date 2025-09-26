@@ -49,7 +49,7 @@ function Experience() {
             <div className="flex flex-col gap-6">
               {
                 experiences.map(experience => (
-                  <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
+                  <GlowCard key={experience.id} identifier={`experience-${experience.id} flex justify-center `}>
                     <div className="p-3 relative">
                       <Image
                         src="/blur-23.svg"
@@ -63,12 +63,12 @@ function Experience() {
                           {experience.duration}
                         </p>
                       </div>
-                      <div className="flex items-center gap-x-8 px-3 py-5">
+                      <div className="flex items-center gap-x-4 md:gap-x-8 md:px-3 px-1 py-5">
                         <div className="text-violet-500  transition-all duration-300 hover:scale-125">
                           <BsPersonWorkspace size={36} />
                         </div>
                         <div>
-                          <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                          <p className="text-[14px] sm:text-xl mb-2 font-medium uppercase">
                             {experience.title}
                           </p>
                           <p className="text-sm sm:text-base">

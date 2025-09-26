@@ -67,15 +67,15 @@ function Education() {
                           {education.duration}
                         </p>
                       </div>
-                      <div className="flex items-center gap-x-8 px-3 py-5">
+                      <div className="flex items-center gap-x-8 px-3 py-2 md:py-5">
                         <div className="text-violet-500  transition-all duration-300 hover:scale-125">
                           <BsPersonWorkspace size={36} />
                         </div>
                         <div>
-                          <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                          <p className="text-[14px] sm:text-xl md:mb-2 font-medium uppercase">
                             {education.title}
                           </p>
-                          <p className="text-sm sm:text-base">{education.institution}</p>
+                          <p className="text-[12px] sm:text-base">{education.institution}</p>
                         </div>
                       </div>
                     </div>
