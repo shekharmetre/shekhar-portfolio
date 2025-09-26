@@ -1,8 +1,8 @@
 export const personalData = {
   name: "Shekhar Metre",
   profile: '/profile.png',
-  designation: "Intermediate Developer",
-  description: "My name is Shekhar Metre. I am a passionate programmer with a self-driven attitude and a love for problem-solving. I specialize in JavaScript/TypeScript and am comfortable with Python-based and Java-based applications. With 8 years of retail experience, I bring a unique blend of technical expertise and business insights to create impactful solutions. I am confident in building robust logic, solving complex problems, and continuously learning to grow. I am open to opportunities where I can contribute and make a meaningful impact",
+  designation: "Software Developer",
+  description: "My name is Shekhar Metre. I am a passionate programmer with a self-driven attitude and a love for problem-solving. I specialize in JavaScript/TypeScript and also comfortable with Python-based and Java-based applications. With 8 years of retail experience, I bring a unique blend of technical expertise and business insights to create impactful solutions. I am confident in building robust logic, solving complex problems, and continuously learning to grow. I am open to opportunities where I can contribute and make a meaningful impact",
   email: 'bhagyawanti@gmail.com',
   phone: '+917406935847',
   address: 'Chidri Road Bidar Karnataka - 585403',
